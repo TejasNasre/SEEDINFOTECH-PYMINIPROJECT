@@ -26,3 +26,10 @@ elif (num < 0):
   print("negative")
 else:
   print("zero")
+
+# check whether number is odd or even
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print("The number is even")
+else:
+    print("The number is odd")
