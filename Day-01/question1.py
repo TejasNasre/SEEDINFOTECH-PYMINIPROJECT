@@ -26,10 +26,3 @@ elif (num < 0):
   print("negative")
 else:
   print("zero")
-
-# check number is odd or even
-num = int(input('enter num: '))
-if (num % 2 == 0):
-  print('even')
-else:
-  print('odd')
