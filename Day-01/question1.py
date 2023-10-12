@@ -16,3 +16,13 @@ num3 = num1
 num1 = num2
 num2 = num3
 print(num1, num2)
+
+# check weather the number is positive,negative or zero 
+
+num = int(input('enter num: '))
+if (num > 0):
+  print("positive")
+elif (num < 0):
+  print("negative")
+else:
+  print("zero")
