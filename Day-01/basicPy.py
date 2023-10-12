@@ -87,7 +87,7 @@ else:
   print("invalid age")
 
 
-# email checker
+# email checker - using nested if
 email = input('enter email: ')
 
 if(email == 'nastynas@gmail.com'):
