@@ -17,13 +17,16 @@ while choice >3 or choice <1:
   else:
     choice_name ='Scissors'
 
-comp_choice = random.randint(a:1, b:3)
 
-while comp_choice == choice:
-  comp_choice = random.randint(a:1, b:3)
-if comp_choice == 1:
-  comp_choice_name ='rock'
-elif comp_choice == 2:
-  comp_choice_name ='paper'
-else:
-  comp_choice_name = 'scissors'
+print("Computer choice is \n", comp_choice_name)
+print(choice_name, 'Vs', comp_choice_name)
+
+if choice == comp_choice:
+  print("It's a draw", end ="")
+  result = "DRAW"
+if(choice ==1 and comp_choice == 2):
+  print('paper wins =>',end ="")
+  result = "PAPER"
+elif(choice ==2 and comp_choice == 1):
+  print('rock wins =>',end ="")
+  result = "PAPER"
