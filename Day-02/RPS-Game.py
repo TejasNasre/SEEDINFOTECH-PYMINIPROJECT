@@ -30,33 +30,33 @@ while True :
   if choice == comp_choice:
    print("It's a draw", end ="")
    result = "DRAW"
-
-
-if(choice ==1 and comp_choice == 2):
-  print('paper wins =>',end ="")
-  result = "papeR"
-elif(choice ==2 and comp_choice == 1):
-  print('rock wins =>',end ="")
-  result = "PAPER"
-
-if(choice==1 and comp_choice ==3):
-  print('Rock wins =>\n', end ="")
-  result = "Rock"
-elif(choice==3 and comp_choice == 1):
-  print('Rock wins =>\n', end ="")
-  result ="rock"
+  if(choice ==1 and comp_choice == 2):
+   print('paper wins =>',end ="")
+   result = "papeR"
+  elif(choice ==2 and comp_choice == 1):
+   print('rock wins =>',end ="")
+   result = "PAPER"
+  if(choice==1 and comp_choice ==3):
+   print('Rock wins =>\n', end ="")
+   result = "Rock"
+  elif(choice==3 and comp_choice == 1):
+   print('Rock wins =>\n', end ="")
+   result ="rock"  
+  if(choice==2 and comp_choice ==3):
+   print('Scissors wins =>\n', end ="")
+   result = "scissoR"
+  elif(choice == 3 and comp_choice==2):
+   print('Scissors wins =>', end ="")
+   result = 'scissor'
+  if result =='DRAW':
+   print("<== It's a tie ==>")
+  if result == choice_name:
+   print("<== User wins ==>")
+  else:
+   print("<== Computer wins ==>")
   
-if(choice==2 and comp_choice ==3):
-  print('Scissors wins =>\n', end ="")
-  result = "scissoR"
-elif(choice == 3 and comp_choice==2):
-  print('Scissors wins =>', end ="")
-  result = 'scissor'
-
-if result =='DRAW':
-  print("<== It's a tie ==>")
-if result == choice_name:
-  print("<== User wins ==>")
-else:
-  print("<== Computer wins ==>")
-  
+  print("Do you want to play again? (Y/N)")
+  ans = input()
+  if ans =='n':
+   break
+  print("thanks for playing")
