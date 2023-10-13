@@ -99,3 +99,38 @@ if(email == 'nastynas@gmail.com'):
     print('incorrect password')
 else:
   print('incorrect email')
+
+#Looping Statement
+
+#while Loop
+i = 0
+while i < 10:
+    print(i)
+    i = i +1
+
+# for loop
+
+for i in range(1,10,2):
+    print(i)
+
+# Jumping Statement
+#break
+i= 0
+
+while True:
+    i += 1
+    print(i)
+    if i == 10:
+        break
+
+#continue
+
+i = 1
+
+while i < 10:
+  i += 1
+  if(i == 5):
+    continue
+  print(i)
+
+
