@@ -14,10 +14,10 @@ while True :
     choice_name = 'Paper'
   else:
     choice_name ='Scissors'
-    comp_choice = random.randint(a:1, b:3)
+    comp_choice = random.randint(1,3)
 
   while comp_choice == choice:
-    comp_choice = random.randint(a:1, b:3)
+    comp_choice = random.randint(1,3)
   if comp_choice == 1:
    comp_choice_name ='rock'
   elif comp_choice == 2:
