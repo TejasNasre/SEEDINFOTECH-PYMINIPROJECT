@@ -16,3 +16,14 @@ while choice >3 or choice <1:
     choice_name = 'Paper'
   else:
     choice_name ='Scissors'
+
+comp_choice = random.randint(a:1, b:3)
+
+while comp_choice == choice:
+  comp_choice = random.randint(a:1, b:3)
+if comp_choice == 1:
+  comp_choice_name ='rock'
+elif comp_choice == 2:
+  comp_choice_name ='paper'
+else:
+  comp_choice_name = 'scissors'
